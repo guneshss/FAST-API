@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 app=FastAPI()
 
-students=[{"RollNo":1,"name":"Praveen","Age":21}]
+students=[{"RollNo":1,"name":"gunesh","Age":21}]
 
 class Student(BaseModel):
     RollNo:int
